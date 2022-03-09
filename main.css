@@ -1,0 +1,61 @@
+head body p a h1 h2 html div {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #fff;
+    padding: 10px;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #fff;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+h2 {
+    color: #fff;
+}
+body {
+    background-position: top center;
+    background-image: url(green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+}
+.words {
+    background-color: black;
+    height: 350px;
+    width: 60%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#im1 {
+    background-image: url(cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 40%;
+}
+#im2 {
+    background-image: url(human-holding-a-bread-745988.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 40%;
+}
+#im3 {
+    background-image: url(green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 40%;
+}
+.rowcontainer {
+    display: flex;
+}
